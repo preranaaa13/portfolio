@@ -1,0 +1,196 @@
+.navbar{
+    height: 75px;
+    background-color: gray;
+    margin: 0%;
+    
+    width: 1265px;
+    display: flex;
+}
+body{
+    background-color: darkgray;
+}
+.portfolio>a{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.portfolio:hover{
+    background-color: white;
+    background: none;
+}
+.buttons{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 600px;
+    margin-top: -10px;
+}
+.buttons a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.buttons a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+}
+.buttons .about:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.buttons .project:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+    max-width: 1250px;
+}
+.divisions p{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-left: 40px;
+}
+.divisions{
+    max-width: 1250px;
+}
+.divisions img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+.divisions li{
+    list-style: none;
+    height: 140px;
+    margin-left: 100px;
+}
+hr{
+    margin-left: -50px;
+}
+.divisions .myntra{
+    width: 180px;
+    margin-left: -40px;
+}
+.divisions .netflix{
+    font-size: 23px;
+    font-family: monospace;
+    display: block;
+    width: 800px;
+    text-align: center;
+    position: relative;
+    bottom: 110px;
+    left: 190px;
+}
+@media screen and (min-width:500px){
+    .navbar{
+        height: 75px;
+        background-color: gray;
+        margin: 0%;
+        max-width: 1250px;
+        min-width: 100%;
+        width: 1265px;
+        display: flex;
+    }
+    body{
+        background-color: darkgray;
+        max-width: 1250px;
+        min-width: 500px;
+    }
+    .portfolio>a{
+        font-family: monospace;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    .portfolio:hover{
+        background-color: white;
+        background: none;
+    }
+    .buttons{
+        display: flex;
+        column-gap: 50px;
+        margin-left: 600px;
+        margin-top: -10px;
+    }
+    .buttons a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .buttons a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+        text-decoration: none;
+        color: black;
+    }
+    .buttons .about:hover{
+        text-decoration: line-through;
+        cursor: pointer;
+    }
+    .buttons .project:hover{
+        text-decoration: line-through;
+        cursor: pointer;
+    }
+    .buttons{
+        display: flex;
+        column-gap: 50px;
+        margin-left: 600px;
+        margin-top: 20px;
+        max-width: 1250px;
+    }
+    .divisions p{
+        font-size: 35px;
+        font-weight: bold;
+        font-family: monospace;
+        padding-left: 40px;
+    }
+    .divisions{
+        display: block;
+        min-width: 500px;
+        max-width: 1250px;
+    }
+    .divisions img{
+        height: 100px;
+        width: 100px;
+        margin-top: 20px;
+    }
+    .divisions li{
+        list-style: none;
+        height: 140px;
+        margin-left: 100px;
+    }
+    hr{
+        margin-left: -50px;
+    }
+    .divisions .myntra{
+        width: 180px;
+        margin-left: -40px;
+    }
+    .divisions .netflix{
+        font-size: 23px;
+        font-family: monospace;
+        display: block;
+        width: 800px;
+        text-align: center;
+        position: relative;
+        bottom: 110px;
+        left: 190px;
+        min-width: 500px;
+    }
+}

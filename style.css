@@ -1,0 +1,184 @@
+.navbar{
+    height: 75px;
+    background-color: gray;
+    margin: 0%;
+    
+    width: 1265px;
+    display: flex;
+}
+body{
+    background-color: darkgray;
+}
+.portfolio>a{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.portfolio:hover{
+    background-color: white;
+    background: none;
+}
+.buttons{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 600px;
+    margin-top: -10px;
+}
+.buttons a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+}
+.buttons a{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-decoration: none;
+    color: black;
+}
+.buttons .about:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.buttons .project:hover{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+    max-width: 1250px;
+}
+.welcome .to{
+    font-family: monospace;
+    font-size: 50px;
+    padding-left: 22%;
+    padding-top: 3%;
+}
+.welcome .insight{
+    font-family: monospace;
+    font-size: 40px;
+    width: 70%;
+    margin-left: 15%;
+    display: block;
+    text-align: center;
+}
+.welcome{
+    max-width: 1250px;
+}
+.myprojects a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.myprojects a:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 42px;
+    text-decoration: line-through;
+}
+@media screen and (min-width:500px){
+    .navbar{
+        height: 75px;
+        background-color: gray;
+        margin: 0%;
+        min-width: 500px;
+        width: 1265px;
+        display: flex;
+    }
+    body{
+        background-color: darkgray;
+    }
+    .portfolio>a{
+        font-family: monospace;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 20px;
+        margin-top: 20px;
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    .portfolio:hover{
+        background-color: white;
+        background: none;
+    }
+    .buttons{
+        display: flex;
+        column-gap: 50px;
+        margin-left: 600px;
+        margin-top: -10px;
+    }
+    .buttons a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    .buttons a{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: monospace;
+        text-decoration: none;
+        color: black;
+    }
+    .buttons .about:hover{
+        text-decoration: line-through;
+        cursor: pointer;
+    }
+    .buttons .project:hover{
+        text-decoration: line-through;
+        cursor: pointer;
+    }
+    .buttons{
+        display: flex;
+        column-gap: 50px;
+        margin-left: 600px;
+        margin-top: 20px;
+        max-width: 1250px;
+    }
+    .welcome .to{
+        font-family: monospace;
+        font-size: 50px;
+        padding-left: 22%;
+        padding-top: 3%;
+    }
+    .welcome .insight{
+        font-family: monospace;
+        font-size: 40px;
+        width: 70%;
+        margin-left: 15%;
+        display: block;
+        text-align: center;
+    }
+    .welcome{
+        max-width: 1250px;
+    }
+    .myprojects a{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    .myprojects a:hover{
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 42px;
+        text-decoration: line-through;
+    }
+}
